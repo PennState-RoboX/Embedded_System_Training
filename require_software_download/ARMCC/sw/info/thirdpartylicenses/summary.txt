@@ -1,0 +1,11 @@
+This directory contains the copyright and license information for third-party
+software included in this release of ARM Compiler 5. The following summary
+indicates the components used under which licenses.
+
+RogueWave             roguewave-hp-license.txt
+                                          Some code contained in the RogueWave
+                                          C++ library and headers is under an
+                                          additional copyright and license.
+Expat                 expat-license.txt   Used in the ARM Compiler 5 tools.
+Fdlibm                fdlibm-license.txt  Used in the C libraries.
+Zlib                  zlib-license.txt    Used in armcc.
