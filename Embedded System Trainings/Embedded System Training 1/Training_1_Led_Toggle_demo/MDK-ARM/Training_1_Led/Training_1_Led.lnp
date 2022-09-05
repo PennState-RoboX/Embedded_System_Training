@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp.sp
+"training_1_led\startup_stm32f427xx.o"
+"training_1_led\main.o"
+"training_1_led\gpio.o"
+"training_1_led\stm32f4xx_it.o"
+"training_1_led\stm32f4xx_hal_msp.o"
+"training_1_led\stm32f4xx_hal_tim.o"
+"training_1_led\stm32f4xx_hal_tim_ex.o"
+"training_1_led\stm32f4xx_hal_rcc.o"
+"training_1_led\stm32f4xx_hal_rcc_ex.o"
+"training_1_led\stm32f4xx_hal_flash.o"
+"training_1_led\stm32f4xx_hal_flash_ex.o"
+"training_1_led\stm32f4xx_hal_flash_ramfunc.o"
+"training_1_led\stm32f4xx_hal_gpio.o"
+"training_1_led\stm32f4xx_hal_dma_ex.o"
+"training_1_led\stm32f4xx_hal_dma.o"
+"training_1_led\stm32f4xx_hal_pwr.o"
+"training_1_led\stm32f4xx_hal_pwr_ex.o"
+"training_1_led\stm32f4xx_hal_cortex.o"
+"training_1_led\stm32f4xx_hal.o"
+"training_1_led\stm32f4xx_hal_exti.o"
+"training_1_led\system_stm32f4xx.o"
+"training_1_led\bsp_led.o"
+--strict --scatter "Training_1_Led\Training_1_Led.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Training_1_Led.map" -o Training_1_Led\Training_1_Led.axf
