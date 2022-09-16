@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"button_usart\startup_stm32f427xx.o"
+"button_usart\main.o"
+"button_usart\gpio.o"
+"button_usart\usart.o"
+"button_usart\stm32f4xx_it.o"
+"button_usart\stm32f4xx_hal_msp.o"
+"button_usart\stm32f4xx_hal_tim.o"
+"button_usart\stm32f4xx_hal_tim_ex.o"
+"button_usart\stm32f4xx_hal_uart.o"
+"button_usart\stm32f4xx_hal_rcc.o"
+"button_usart\stm32f4xx_hal_rcc_ex.o"
+"button_usart\stm32f4xx_hal_flash.o"
+"button_usart\stm32f4xx_hal_flash_ex.o"
+"button_usart\stm32f4xx_hal_flash_ramfunc.o"
+"button_usart\stm32f4xx_hal_gpio.o"
+"button_usart\stm32f4xx_hal_dma_ex.o"
+"button_usart\stm32f4xx_hal_dma.o"
+"button_usart\stm32f4xx_hal_pwr.o"
+"button_usart\stm32f4xx_hal_pwr_ex.o"
+"button_usart\stm32f4xx_hal_cortex.o"
+"button_usart\stm32f4xx_hal.o"
+"button_usart\stm32f4xx_hal_exti.o"
+"button_usart\system_stm32f4xx.o"
+--strict --scatter "button_usart\button_usart.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "button_usart.map" -o button_usart\button_usart.axf
