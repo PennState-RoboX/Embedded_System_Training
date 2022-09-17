@@ -872,14 +872,12 @@ ARM Macro Assembler    Page 14
               00000400 
               00000200 
               00000000 
-Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp.sp --apcs=
-interwork --depend=training_1_led\startup_stm32f427xx.d -otraining_1_led\startu
-p_stm32f427xx.o -I.\RTE\_Training_1_Led -IC:\Users\echoe\AppData\Local\Arm\Pack
-s\ARM\CMSIS\5.8.0\CMSIS\Core\Include -IC:\Users\echoe\AppData\Local\Arm\Packs\K
-eil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include --predefine=
-"__UVISION_VERSION SETA 536" --predefine="_RTE_ SETA 1" --predefine="STM32F427x
-x SETA 1" --predefine="_RTE_ SETA 1" --list=startup_stm32f427xx.lst startup_stm
-32f427xx.s
+Command Line: --debug --xref --cpu=Cortex-M4.fp --apcs=interwork --depend=train
+ing_1_led\startup_stm32f427xx.d -otraining_1_led\startup_stm32f427xx.o -I.\RTE\
+_Training_1_Led -IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\
+Core\Include --predefine="__UVISION_VERSION SETA 537" --predefine="_RTE_ SETA 1
+" --predefine="_RTE_ SETA 1" --list=startup_stm32f427xx.lst startup_stm32f427xx
+.s
 
 
 
@@ -2052,4 +2050,4 @@ Symbol: __use_two_region_memory
       None
 Comment: __use_two_region_memory unused
 3 symbols
-455 symbols in table
+454 symbols in table

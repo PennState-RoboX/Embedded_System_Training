@@ -1,4 +1,4 @@
---cpu=Cortex-M4.fp.sp
+--cpu=Cortex-M4.fp
 "training_1_led\startup_stm32f427xx.o"
 "training_1_led\main.o"
 "training_1_led\gpio.o"
